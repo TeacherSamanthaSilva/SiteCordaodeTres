@@ -4,7 +4,11 @@ body{
 	margin: 0;
 }
 
-h1,h2,h3{
+h1{
+	font-family: 'Dancing Script', cursive;
+}
+
+h2,h3{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     margin:0;
@@ -39,4 +43,56 @@ nav{
 	background-color: #E1A3FF;
 }
 
+nav > a {
+	text-decoration: none;
+	color: #f1f1f1;
+	font-weight: bold;
+	font-size: 28px;
+	font-family: 'Roboto', sans-serif;
+}
 
+
+nav ul{
+	
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	list-style: none;
+	
+}
+
+nav ul li{
+	text-align: center;
+	width: 100%;
+	padding: 1%;
+	list-style: none;	
+	
+}
+
+nav ul li a{ 
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	text-decoration: none;
+	color: #f1f1f1;
+}
+
+nav ul :hover { 
+    background-color: #8B73FF;
+}
+
+header {
+	background-image:url('images/fundo.jfif');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #f1f1f1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding:20px;
+}
